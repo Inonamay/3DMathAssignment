@@ -49,6 +49,7 @@ public class Orbit : MonoBehaviour
         {
             Vector3 forward = transform.position - OrbitSolver.GetWorldPointInOrbit(radius, orbitPoint, angle);
             forward.y = -forward.y;
+            forward = forward.normalized;
             transform.rotation = Quaternion.LookRotation(forward);
         }
         else

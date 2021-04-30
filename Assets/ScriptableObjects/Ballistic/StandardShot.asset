@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3ac89ff9af47e4da07097516a0ddee, type: 3}
   m_Name: StandardShot
   m_EditorClassIdentifier: 
-  force: 100
-  gravity: 1
+  force: 43.82
+  gravity: 5.56
   hitMarginal: 2
-  trajectoryDetail: 32
+  trajectoryDetail: 200
+  showCorrectTrajectory: 1

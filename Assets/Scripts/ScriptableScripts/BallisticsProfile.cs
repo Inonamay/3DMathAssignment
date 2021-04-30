@@ -12,4 +12,6 @@ public class BallisticsProfile : ScriptableObject
     public float HitMarginal { get { return hitMarginal; } }
     [SerializeField, Range(32, 200)] int trajectoryDetail = 32;
     public int TrajectoryDetail { get { return trajectoryDetail; } }
+    [SerializeField] bool showCorrectTrajectory = true;
+    public bool ShowCorrect { get { return showCorrectTrajectory; } }
 }
